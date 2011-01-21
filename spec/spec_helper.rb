@@ -1,6 +1,7 @@
 require File.join(File.dirname(__FILE__), '..', 'lib', 'backyard')
 require 'factory_girl'
 require 'backyard/adapter/factory_girl'
+require 'rspec'
 
 Factory.find_definitions
 
